@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 40px 30px;
+    padding: 15px;
+
+}
+
+ol {
+    background-color: yellow;
+}
+
+ol:nth-of-type(even) {
+    color: green;
+}
+
+ol:nth-of-type(2n+1) {
+    text-transform: capitalize;
+}
+
+h1, h3 {
+    color: red;   
+}
+
+h1 {
+    font-size: 40px;
+    border: 1 px black solid;
+}
+
+
+li em {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.linguagens-programacao:nth-of-type(<4) {
+    color: blue;
+}
+
+ul li a:hover {
+    text-;
+}
