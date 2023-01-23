@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px 50px;
+  font-size: 28px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.rank {
+  text-align: center;
+}
+
+.first {
+  background-color: rgb(235, 200, 84);
+  font-size: 30px;
+  height: 70px;
+  text-align: center;
+  width: 300px;
+  margin: 20px auto 0px;
+  display: block;
+}
+
+.second {
+  background-color: rgb(219, 219, 219);
+  font-size: 30px;
+  height: 70px;
+  text-align: center;
+  width: 350px;
+}
+
+.third {
+  background-color: rgb(170, 142, 106);
+  font-size: 30px;
+  height: 70px;
+  text-align: center;
+  width: 350px;
+}
+
+.second,.third {
+  display: inline-block;
+}
+
+h3 {
+  text-align: center;
+}
+
+
+.award-position {
+}
+
+.award-first {
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.award-second {
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.award-third{
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.award {
+    margin: 30px;
+    text-align: center;
+}
+

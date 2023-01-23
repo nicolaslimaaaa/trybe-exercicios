@@ -1,0 +1,15 @@
+h1, p {
+    text-align: center;
+}
+
+.iten:hover {
+    background-color: blue;
+}
+
+.iten:active {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ol, ul {
+    list-style: none;
+}
