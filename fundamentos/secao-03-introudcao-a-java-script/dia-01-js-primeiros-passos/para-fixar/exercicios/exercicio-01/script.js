@@ -64,3 +64,34 @@ if (x + y + z == 180) {
 
 // ---------------------------------------------------------------------------------------------------------
 
+let pecaXadrez = 'Peão';
+let peca = pecaXadrez.toLowerCase();
+
+switch (peca) {
+    case 'peão':
+    console.log('Peão -> Movimento: sempre uma casa para frente, exceto no primeiro movimento, quando pode mover-se duas casas.');
+    break;
+
+    case 'bispo':
+        console.log('Bispo -> Movimento: move-se na diagonal, quantas casas quiser.');
+        break;
+
+    case 'cavalo':
+        console.log('Cavalo -> Movimento: é a única peça que pode saltar sobre as outras peças do tabuleiro, sejam elas amigas ou inimigas. Pode andar duas casas na horizontal e uma na vertical, ou duas na vertical e uma na horizontal, uma na horizontal e duas na vertical, e assim por diante (movimenta "em L").');
+        break;
+
+    case 'torre':
+        console.log('Torre -> Movimento: em linha reta, tanto na vertical quanto na horizontal, quantas casas quiser.');
+        break;
+
+    case 'dama':
+        console.log('Dama -> Movimento: pode mover-se em qualquer direção (vertical, horizontal e diagonal), quantas casas quiser, desde que estejam livres.');
+        break;
+    
+    case 'rei':
+        console.log('Rei -> Movimento: pode mover-se em qualquer direção, porém apenas uma casa por vez.');
+        break;
+
+        default:
+        console.log('Erro: peça inserida não existe!')
+}
