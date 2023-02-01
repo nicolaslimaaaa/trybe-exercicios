@@ -20,9 +20,26 @@
         </section>
       </main>
       <script>
-        console.log(document.getElementById('elementoOndeVoceEsta'));
 
-        document.getElementById('elementoOndeVoceEsta').parentNode.style.color = 'blue';
+          const elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta');
+        
+          const paiDoElementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta').parentNode;
+          paiDoElementoOndeVoceEsta.style.color ='green';
+
+          const primeiroFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho');
+          primeiroFilhoDoFilho.innerText = 'Um texto foi adicionado!';
+
+          const primeiroFilhoAPartirDoPai = document.getElementById('pai').firstElementChild;
+
+          const primeiroFilhoAPartirDoElementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta').previousElementSibling;
+
+          const textoAtencao = document.getElementById('elementoOndeVoceEsta').nextSibling;
+
+          const terceiroFilhoAPartiDeElementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta').nextSibling.nextSibling;
+
+          const terceiroFilhoAParitrDePai = document.getElementById('pai').lastElementChild.previousElementSibling;
+         
+        
       </script>
 </body>
 </html>
