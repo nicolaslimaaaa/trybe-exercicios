@@ -9,7 +9,15 @@ describe('a função createItem', () => {
     });
   });
 
-//   it.todo('utiliza zero como quantidade padrão');
+  it('utiliza zero como quantidade padrão', () => {
+    expect(createItem('banana', 'kg', 1.99)).toMatchObject({
+        name: 'banana',
+        unit: 'kg',
+        price: 1.99,
+        quantity: 0,
+    });
+  });
+
 //   it.todo('Lança um erro quando não recebe parâmetros');
 //   it.todo('Lança um erro se o nome do item não é uma string');
 //   it.todo('Lança um erro se o preço é negativo');
